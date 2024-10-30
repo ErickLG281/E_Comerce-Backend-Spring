@@ -4,8 +4,8 @@ services:
     ports:
       - '5432:5432'
     environment:
-      - 'POSTGRES_USER=codecake'
-      - 'POSTGRES_DB=codecake'
-      - 'POSTGRES_PASSWORD=codecake'
+      - 'POSTGRES_USER=erick21'
+      - 'POSTGRES_DB=erick21'
+      - 'POSTGRES_PASSWORD=150919'
     volumes:
-      - '~/volumes/codecake-yt/postgres:/var/lib/postgresql/data'
+      - '~/volumes/erick21/postgres:/var/lib/postgresql/data'
